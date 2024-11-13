@@ -11,7 +11,8 @@ letterr("World")  # returns "First letter is W and last letter is d"
 #YOUR
 #FUNCTION BELOW HERE
 
-
+def letterr(str):
+  return "First letter is " + str[0] + " and last letter is " + str[-1]
 
 
 

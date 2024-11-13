@@ -15,7 +15,8 @@ replaceString("Python is difficult.", "difficult", "really easy")
 #YOUR
 #FUNCTION BELOW HERE
 
-
+def replaceString(str, target, replace):
+  return str[0:str.find(target)] + replace + (str+" ")[str.find(target)+len(target):-1]
 
 
 

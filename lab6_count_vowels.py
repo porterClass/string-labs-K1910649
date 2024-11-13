@@ -12,7 +12,24 @@ count_vowels("Python")  # returns 1
 #YOUR
 #FUNCTION BELOW HERE
 
-
+def count_vowels(str):
+  vowels = 0
+  for chr in str:
+    if chr == "a":
+      vowels += 1
+  for chr in str:
+    if chr == "e":
+      vowels += 1
+  for chr in str:
+    if chr == "i":
+      vowels += 1
+  for chr in str:
+    if chr == "o":
+      vowels += 1
+  for chr in str:
+    if chr == "u":
+      vowels += 1
+  return vowels
 
 
 

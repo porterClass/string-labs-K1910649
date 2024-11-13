@@ -13,9 +13,11 @@ first_last(last_first("Bugs Bunny"))  # returns "Bugs Bunny"
 #YOUR
 #FUNCTION BELOW HERE
 
+def last_first(name):
+  return (name+" ")[name.find(" ")+1:-1] + ", " + name[0:name.find(" ")]
 
-
-
+def first_last(name):
+  return (name+" ")[name.find(",")+2:-1] + " " + name[0:name.find(" ")-1]
 
 
 

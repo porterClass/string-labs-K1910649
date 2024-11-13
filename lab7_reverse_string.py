@@ -13,7 +13,11 @@ reverse_string("Python")  # returns "nohtyP"
 #YOUR
 #FUNCTION BELOW HERE
 
-
+def reverse_string(str):
+  rev = ""
+  for chr in str:
+    rev = chr + rev
+  return rev
 
 
 
